@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "221";
+    --oggt-build: "222";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -198,7 +198,7 @@
 #app-mount,
 .theme-light,
 .theme-dark {
-    /* Discord colors */
+    /* Discord colors and font */
     --text-normal: rgb(var(--normal-font)) !important;
     --text-muted: rgb(var(--muted-font)) !important;
     --channels-default: rgb(var(--normal-font)) !important;
@@ -232,6 +232,7 @@
     --bdfdb-blurple: rgb(var(--accent-color-1));
     --background-help-warning: rgba(var(--gx-yellow), 0.1);
     --font-display: var(--cf) !important;
+    --font-primary: var(--cf) !important;
     --brand-experiment: rgb(var(--accent-color-1)) !important;
 }
 
@@ -2125,6 +2126,76 @@ body,
 .ephemeralMessage-1fEWtQ a,
 .colorLink-2vG20E.mentionButton-3710-W {
     color: rgb(var(--accent-color-1));
+}
+/* Threads */
+.threadSidebar-1o3BTy .container-2Rl01u,
+.threadSidebar-1o3BTy .container-1r6BKw.themed-ANHk51 {
+    background-color: rgb(var(--darker-background-color));
+}
+.threadSidebar-1o3BTy {
+    -webkit-filter: none;
+    filter: none;
+    border-radius: 0;
+    background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+}
+.cozy-3raOZG.hasThread-2k82W0:after {
+    border-bottom-left-radius: 0;
+}
+.container-3hZ-gs {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border-radius: 0;
+    border: solid 1px var(--line-color-1);
+}
+.container-3hZ-gs:hover {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: var(--line-color-2);
+}
+.browser-2NpbWS {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.container-7uh5fX {
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 0;
+}
+.header-1VS4tm {
+    background-color: rgb(var(--darker-background-color));
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+.container-2I9Hud {
+    background-color: rgb(var(--darker-background-color));
+    border: 1px solid rgb(var(--accent-color-1));
+    border-radius: 0;
+}
+.container-2I9Hud:hover {
+    background-color: rgb(var(--dark-background-color));
+    border-color: rgb(var(--accent-color-2));
+}
+.full-motion.app-focused .container-2I9Hud:hover {
+    animation: accent-blinking 450ms infinite;
+}
+.channelTextAreaInnerFocused-M_uztw {
+    border: none;
+}
+.form-3eU9kJ {
+    border: solid 1px var(--line-color);
+    border-top: none;
+}
+.platform-web .form-3eU9kJ {
+    border-right: none;
+    border-bottom: none;
+}
+.activeThreadsList-3f7l7U {
+    background: none;
+}
+.modal-2DCYwU {
+    background-color: rgb(var(--dark-background-color)) !important;
+    border-radius: 8px;
+    min-height: 400px;
+    height: 60vh;
+    width: 600px;
 }
 /* Embeds */
 .embedFull-2tM8-- {
