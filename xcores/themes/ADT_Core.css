@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "322";
-    --adto-build: "223";
+    --adt-build: "323";
+    --adto-build: "224";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -515,6 +515,12 @@
 }
 .theme-dark .reaction-1hd86g.reactionMe-wv5HKu {
     border-color: var(--brand-experiment);
+}
+.theme-dark .spine--Wla_O {
+    color: rgb(var(--greyaccentcolor));
+}
+.cozy-3raOZG.hasThread-2k82W0:after {
+    border-color: rgb(var(--greyaccentcolor));
 }
 
 /*~~ 4. Scrollbars ~~*/
