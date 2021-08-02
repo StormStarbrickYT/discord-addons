@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "222";
+    --oggt-build: "223";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2137,6 +2137,7 @@ body,
     filter: none;
     border-radius: 0;
     background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+    margin-left: 0;
 }
 .cozy-3raOZG.hasThread-2k82W0:after {
     border-bottom-left-radius: 0;
@@ -2182,10 +2183,12 @@ body,
 .form-3eU9kJ {
     border: solid 1px var(--line-color);
     border-top: none;
+    border-left: none;
 }
 .platform-web .form-3eU9kJ {
     border-right: none;
     border-bottom: none;
+    border-left: solid 1px var(--line-color);
 }
 .activeThreadsList-3f7l7U {
     background: none;
@@ -2196,6 +2199,17 @@ body,
     min-height: 400px;
     height: 60vh;
     width: 600px;
+}
+.chat-3bRxxu.threadSidebarOpen-vdkwIh .uploadArea-1qnBZm,
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+    right: 0;
+    border-radius: 0;
+}
+.threadSidebar-1o3BTy .container-1r6BKw {
+    border-left: none;
+}
+.platform-web .threadSidebar-1o3BTy .container-1r6BKw {
+    border-left: solid 1px var(--line-color);
 }
 /* Embeds */
 .embedFull-2tM8-- {
