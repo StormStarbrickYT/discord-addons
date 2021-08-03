@@ -9,6 +9,7 @@ A Discord theme inspired by the Opera GX Gaming browser.
 - ✅ BetterDiscord
 - ✅ Powercord
 - ✅ Stylus
+- ✅ GooseMod (in the store!)
 
 ## Presets
 
