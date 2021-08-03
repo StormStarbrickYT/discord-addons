@@ -1,6 +1,6 @@
 # [Discord Addons](https://tomrdh.github.io/da-website/main)
 
-Welcome to this repository! Download the themes in the [download-themes-here](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here) folder. The [xcores](https://github.com/Tomrdh/discord-addons/tree/master/xcores) folder contains full CSS files.
+Welcome to this project! Download the themes in the [download-themes-here](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here) folder for BetterDiscord, Powercord or Stylus! The [xcores](https://github.com/Tomrdh/discord-addons/tree/master/xcores) folder contains full CSS files.
 
 # Links
 
