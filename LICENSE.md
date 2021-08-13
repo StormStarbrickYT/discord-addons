@@ -1,28 +1,40 @@
-# Discord Addons by [TomRdh](https://github.com/Tomrdh) License
+# Discord Addons License
 
-A simple and very short "license" to let you know what **you can** and **can't** do with my project.
+Originally created by [TomRdh](https://github.com/Tomrdh).
 
-## Rights
+[Discord Addons](https://github.com/Tomrdh/discord-addons) is 100% free, without ads and without watermark (there are only dev tags in case you see the main dev herself). Thanks for using this stuff! The best way to support this project is by sharing it. 💖
 
-**You can** use and edit this project for personal use only, and share an "official source" of this.
+Here you will read about your permissions, about what you can and can't do with this project.
 
-**You can't** publish, submit, sell, or distribute a copy of this project without my special permission. [Ask me in my Discord server.](https://discord.gg/v7ECsqT)
+## ✅ What you can do:
 
-But **you can** always fork this project and start a pull request to suggest changes.
+- Use this project and forks of this project.
+- Share official sources of this project (see the list below).
+- Modify this project like you want for personal use.
+- Create and publish forks with different names if you'd like to, mentioning [Discord Addons](https://github.com/Tomrdh/discord-addons) somewhere publicly visible.
+- Obviously, make pull requests to help with the official sources!
 
-## Responsibility
+## ❌ What you can't do:
 
-I am not responsible of any kind of modifications (like customizations or custom CSS), any share of this project from unofficial sources or anything that is not made by me (TomRdh).
+- Make anything related to Discord Addons ***paid*** (it will be considered as ***scam***).
+- Make a distrubing advertisement of this project (for example an `@everyone` in a Discord server).
 
-## List of "Official Sources"
+## ℹ️ Responsibility
+
+Please note that the owner is not responsible of modified versions nor unofficial sources of Discord Addons and you must manage them by yourself.
+
+
+## ✨ List of "Official Sources"
 
 Links starting with:
 
-- `tomrdh.github.io` See: [Website](https://tomrdh.github.io/da-website/main)
-- `github.com/Tomrdh` See: [Profile](https://github.com/Tomrdh), [DA Repository](https://github.com/Tomrdh/discord-addons)
+- **`tomrdh.github.io`** See: [Website](https://tomrdh.github.io/da-website/main)
+- **`github.com/Tomrdh`** See: [Profile](https://github.com/Tomrdh)
 
-Any copy of this project, modified or not, is considered as "unofficial source" and I don't support unofficial sources.
+And also:
 
-## Other
+- The addons you find in the [BetterDiscord website](https://betterdiscord.app/developer/TomRdh) and in the [GooseMod](https://goosemod.com/) store.
 
-I created this "license" myself specially for Discord Addons and maybe other stuff from me.
+Any copy of this project, modified or not, is considered as "unofficial source" and you must manage them by yourself.
+
+It is not prohibited, but if you **upload** a file to share it, whether it's modified or not, it will be also considered as unofficial source. Please consider sharing the link where you got that file, so people could download official files and even discover more.
