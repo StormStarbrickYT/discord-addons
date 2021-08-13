@@ -17,7 +17,7 @@ Here you will read about your permissions, about what you can and can't do with 
 ## ❌ What you can't do:
 
 - Make anything related to Discord Addons ***paid*** (it will be considered as ***scam***).
-- Make a distrubing advertisement of this project (for example an `@everyone` in a Discord server).
+- Make a distrubing or fake advertisement of this project.
 
 ## ℹ️ Responsibility
 
