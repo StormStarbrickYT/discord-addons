@@ -1,4 +1,4 @@
-# Download themes here
+# Download themes here - [View on website](https://tomrdh.github.io/da-website/themes)
 
 Choose the folder you want, and save the file ending with `.theme.css`. If you are using Powercord, save also the `powercord_manifest.json`.
 
@@ -6,9 +6,10 @@ You can see theme compatibilities in each theme folder. If you are using a clien
 
 ## About:
 
-My stuff is 100% free, without ads and without watermark (only dev tags). Thanks for using my stuff, to support me, you can share it!
-You can see previews [here](https://tomrdh.github.io/da-website/themes).
+This project is 100% free, without ads and without watermark (there are only dev tags in case you see the main dev herself). Thanks for using this stuff! The best way to support this project is by sharing it. 💖
+
+You can read the [license](https://github.com/Tomrdh/discord-addons/blob/master/LICENSE.md) for more information.
 
 ## Bonus:
 
-Do you want some other themes? Check my [stuff](https://github.com/Tomrdh/stuff) repo!
+Do you want some other themes? Check this [stuff](https://github.com/Tomrdh/stuff) repo!
