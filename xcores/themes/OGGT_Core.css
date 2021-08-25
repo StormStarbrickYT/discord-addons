@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "224";
+    --oggt-build: "225";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -7823,7 +7823,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 }
 
 /*~~ 16. DevTags ~~*/
-/* Chat: Cozy */
+/* Old theme dev */
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
     color: rgb(var(--font-in-accent)) !important;
@@ -7852,7 +7852,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     --cp-size: 0.275rem !important;
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
-    content: "Theme Dev" !important;
+    content: "Old Theme Dev" !important;
 }
 #app-mount .username-added .author-username:after {
     display: none !important;
@@ -7863,9 +7863,46 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     color: rgb(var(--accent-color-1)) !important;
     text-shadow: 0 0 1px rgb(var(--accent-color-2)) !important;
 }
-/* Chat: Compact */
-/* Canceled because this mode has too many bugs with a lot of plugins.
-   If you are reading this, I have a question… In Compact Mode, are normal tags before or after the nickname? Tysm if you answer. */
+/* Current theme dev */
+div[class*="message"] img[src*="878274067558461454"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
+    color: rgb(var(--font-in-accent)) !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    vertical-align: top !important;
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    text-indent: 0 !important;
+    height: 0.9375rem !important;
+    padding: 0 0.275rem !important;
+    margin-top: 0.075em !important;
+    margin-left: 0.25rem !important;
+    position: relative !important;
+    top: 0.15rem !important;
+    border-radius: 1px !important;
+    text-shadow: none !important;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size)) !important;
+    --cp-size: 0.275rem !important;
+}
+div[class*="message"] img[src*="878274067558461454"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
+    content: "Current Theme Dev" !important;
+}
+#app-mount .username-added .author-username:after {
+    display: none !important;
+}
+div[class*="message"] img[src*="878274067558461454"] ~ h2[class*="header"] span[class*="name"]:nth-child(1),
+div[class*="message"] img[src*="878274067558461454"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):hover {
+    font-weight: bold !important;
+    color: rgb(var(--accent-color-1)) !important;
+    text-shadow: 0 0 1px rgb(var(--accent-color-2)) !important;
+}
 
 /*~~ 17. Discord Developers and Others ~~*/
 /*-- 17.1. Discord Developers --*/
