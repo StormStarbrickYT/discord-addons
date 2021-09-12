@@ -59,7 +59,8 @@ q,
 legend,
 b,
 paper-toast,
-label {
+label,
+span[class*="text"] {
     font-family: var(--cf) !important;
 }
 
