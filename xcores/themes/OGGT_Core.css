@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "225";
+    --oggt-build: "226";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2442,7 +2442,7 @@ Entire area: All borders
     border: solid 1px rgb(var(--accent-color-1));
     box-shadow: 0 0 3px #000;
 }
-/* Looks */
+/* Buttons */
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91,
 #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV,
 #app-mount .lookOutlined-3sRXeN,
@@ -2471,6 +2471,13 @@ Entire area: All borders
 #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91 {
     color: rgb(var(--accent-color-2));
     border-color: rgb(var(--accent-color-1));
+}
+#app-mount .lookFilled-1Gx00P.colorBrandNew-g5lmBU {
+    color: rgb(var(--font-in-accent));
+    background-color: rgb(var(--accent-color-1));
+}
+#app-mount .lookFilled-1Gx00P.colorBrandNew-g5lmBU:hover {
+    background-color: rgb(var(--accent-color-2));
 }
 /* SVG buttons */
 .toolbar-1t6TWx .icon-22AiRD {
@@ -6763,6 +6770,30 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
     backdrop-filter: blur(var(--memberlist-background-blur));
 }
+/* Server boost status tiers - stickers */
+.tier-2pEkRl {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .tierHeaderLocked-3S508x {
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--normal-font));
+    border-radius: 0;
+}
+#app-mount .tierBody-3aUxuc {
+    border-top: solid 1px rgb(var(--accent-color-1));
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--normal-font));
+    border-radius: 0;
+}
+/* NEW badges */
+.textBadge-1iylP6 {
+    background-color: rgb(var(--gx-red)) !important;
+    color: rgb(var(--fullwhite-font)) !important;
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
 
 /*~~ 11. Settings ~~*/
 .background-1QDuV2 {
@@ -6913,18 +6944,19 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     color: rgb(var(--accent-color-2));
 }
 #app-mount .checkbox-1ix_J3 {
-    border-radius: 0;
-    border-color: rgb(var(--accent-color-1));
+    border-radius: 0 !important;
+    border-color: transparent !important;
+    border-color: rgb(var(--accent-color-1)) !important;
 }
-#app-mount .item-26Dhrx[style*="background"] .checkbox-1ix_J3 {
-    border-color: rgb(var(--fullwhite-font)) !important;
+#app-mount .checkbox-1ix_J3.checked-3_4uQ9 {
+    background-color: rgb(var(--accent-color-1)) !important;
     color: rgb(var(--accent-color-1)) !important;
 }
 #app-mount .checked-3_4uQ9[style*="bdfdb-blurple"] {
     background-color: #0000 !important;
 }
-#app-mount .checked-3_4uQ9[style*="bdfdb-blurple"] path {
-    fill: rgb(var(--accent-color-1)) !important;
+#app-mount .checked-3_4uQ9 path {
+    fill: rgb(var(--font-in-accent)) !important;
 }
 #app-mount .ui-tab-bar-item {
     color: rgb(var(--normal-font));
@@ -7221,7 +7253,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 	background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency)) !important;
 	box-shadow: 0 0 8px rgba(var(--accent-color-2), 0.5);
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92)"] {
+.container-3auIfb[style="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: rgb(var(--accent-color-1)) !important;
 	box-shadow: 0 0 4px rgb(var(--accent-color-1));
 }
@@ -7245,10 +7277,8 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .bd-switch input:checked + .bd-switch-body .bd-switch-handle {
     fill: rgb(var(--font-in-accent));
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:hover,
-.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:hover,
-.container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:active,
-.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:active {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:hover,
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:active {
 	background-color: rgb(var(--accent-color-2)) !important;
 	box-shadow: 0 0 8px rgb(var(--accent-color-2));
 }
@@ -7256,8 +7286,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 	fill: rgb(var(--dark-background-color)) !important;
 	transition: fill 400ms ease;
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92)"] path[fill],
-.container-3auIfb[style*="background-color: rgb(88, 101, 242)"] path[fill] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] path[fill] {
 	fill: rgb(var(--accent-color-1)) !important;
 }
 .bd-switch::after {
@@ -7267,10 +7296,8 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .bd-switch.bd-switch-checked::after {
     background-color: rgb(var(--font-in-accent));
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:hover path[fill],
-.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:hover path[fill],
-.container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:active path[fill],
-.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:active path[fill] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:hover path[fill],
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:active path[fill] {
 	fill: rgb(var(--accent-color-2)) !important;
 }
 .plugin-inputs .control-2BBjec {
@@ -7282,8 +7309,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     fill: rgb(var(--fullwhite-font));
     transition: fill 400ms ease;
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92)"] rect[fill],
-.container-3auIfb[style*="background-color: rgb(88, 101, 242)"] rect[fill] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] rect[fill] {
     fill: rgb(var(--font-in-accent));
 }
 #app-mount .markValue-2DwdXI {
