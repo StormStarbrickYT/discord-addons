@@ -19,7 +19,7 @@
         6.3.  Public Servers
         6.4.  Voice Channels
         6.5.  HLJS Names
-    7.  Plugin Compatibility
+    7.  Addon Compatibility
     8.  Theme light fixer
     9.  Draw Lines
     10. Blur and transparency
@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "226";
+    --oggt-build: "227";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4406,7 +4406,7 @@ span.roleColor-rz2vM0::after {
 }
 /* Servers */
 .item-2hkk8m {
-    border-radius: 0;
+    border-radius: 0 !important;
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     width: 9px;
 }
@@ -4552,7 +4552,7 @@ g[class*="focusStroke"] {
 }
 .expandedFolderBackground-2sPsd-,
 .expandedFolderBackground-1cujaW {
-    border-radius: 17px 17px 24px 24px;
+    border-radius: 17px 17px 24px 24px !important;
 }
 .noIcon-1a_FrS {
     background: transparent;
@@ -5892,7 +5892,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
 }
 
-/*~~ 7. Plugin Compatibility ~~*/
+/*~~ 7. Addon Compatibility ~~*/
 /* BDFDB */
 .base-PmTxvP[style*="--bdfdb-blurple"] {
     color: rgb(var(--font-in-accent));
@@ -6357,6 +6357,11 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .detailsTooltip-G9hSSa div.icon-hSL42R {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     color: rgb(var(--font-in-accent));
+}
+/* Serverlist at Bottom (+ HorizontalServerList) */
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-,
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-1cujaW {
+    z-index: -1;
 }
 /* SpotifyControls */
 .bar-g2ZMIm,
