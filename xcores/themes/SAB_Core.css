@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --sab-build: "19";
+    --sab-build: "20";
     --theme-name: "Serverlist at Bottom";
 }
 :root {
@@ -75,7 +75,8 @@
 #app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-,
 #app-mount .guilds-1SWlCJ .expandedFolderBackground-1cujaW {
     width: var(--server-size);
-    z-index: -1;
+    bottom: 0;
+    left: 10px;
 }
 #app-mount .label-2wRs_g {
     transform: rotate(-90deg);
