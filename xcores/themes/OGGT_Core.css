@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "227";
+    --oggt-build: "228";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4043,20 +4043,34 @@ span.roleColor-rz2vM0::after {
 }
 /* Contextmenus */
 .menu-3sdvDG {
-    background: transparent;
+    background-color: rgb(var(--darker-background-color));
     border: solid 1px rgb(var(--darker-background-color));
     box-shadow: none;
     -webkit-box-shadow: none;
     max-height: calc(100vh - 51px);
     border-radius: 0;
 }
+.scroller-3BxosC {
+    background-color: rgb(var(--dark-background-color));
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.scroller-3gAZLs {
+    background-color: rgb(var(--dark-background-color));
+}
 .full-motion .menu-3sdvDG {
     animation: cm-pop-in 250ms;
 }
 .styleFlexible-wGDiIL,
 .submenu-2-ysNh {
-    min-width: fit-content;
     max-width: fit-content;
+}
+.listItems-1uJgMC .item-1tOPte {
+    min-height: 32px;
+    padding-left: 10px;
+}
+.listItems-1uJgMC {
+    inset: 0 !important;
 }
 .colorDefault-2K3EoJ:not(.colorBrand-ROmMP1, .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS) {
     color: rgb(var(--fullwhite-font));
@@ -4083,11 +4097,6 @@ span.roleColor-rz2vM0::after {
 .labelContainer-1BLJti,
 .scroller-3BxosC {
     padding: 0;
-}
-.scroller-3BxosC {
-    background-color: rgb(var(--dark-background-color));
-    padding-top: 4px;
-    padding-bottom: 4px;
 }
 .labelContainer-1BLJti {
     min-height: 21px;
@@ -7115,11 +7124,12 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     color: rgb(var(--muted-font));
 }
 #app-mount .bar-2Qqk5Z {
-    background: var(--background-primary);
+    background: rgb(var(--dark-background-color));
     border-radius: 0;
 }
-.menu-3sdvDG .bar-2Qqk5Z {
+#app-mount .menu-3sdvDG .bar-2Qqk5Z {
     min-width: 200px;
+    background: rgb(var(--darker-background-color));
 }
 .barFill-23-gu- {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
