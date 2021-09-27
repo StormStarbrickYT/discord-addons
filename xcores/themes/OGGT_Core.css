@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "228";
+    --oggt-build: "229";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4050,26 +4050,26 @@ span.roleColor-rz2vM0::after {
     max-height: calc(100vh - 51px);
     border-radius: 0;
 }
-.scroller-3BxosC {
+.menu-3sdvDG .scroller-3BxosC {
     background-color: rgb(var(--dark-background-color));
     padding-top: 4px;
     padding-bottom: 4px;
 }
-.scroller-3gAZLs {
+.menu-3sdvDG .scroller-3gAZLs {
     background-color: rgb(var(--dark-background-color));
 }
 .full-motion .menu-3sdvDG {
     animation: cm-pop-in 250ms;
 }
-.styleFlexible-wGDiIL,
-.submenu-2-ysNh {
+.menu-3sdvDG .styleFlexible-wGDiIL,
+.menu-3sdvDG .submenu-2-ysNh {
     max-width: fit-content;
 }
-.listItems-1uJgMC .item-1tOPte {
+.menu-3sdvDG .listItems-1uJgMC .item-1tOPte {
     min-height: 32px;
     padding-left: 10px;
 }
-.listItems-1uJgMC {
+.menu-3sdvDG .listItems-1uJgMC {
     inset: 0 !important;
 }
 .colorDefault-2K3EoJ:not(.colorBrand-ROmMP1, .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS) {
