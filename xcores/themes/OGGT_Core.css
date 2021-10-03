@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "230";
+    --oggt-build: "231";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4745,8 +4745,15 @@ g[class*="focusStroke"] {
 }
 /* Connecting screen */
 .container-16j22k {
-    background: var(--background) center;
-    background-size: cover;
+    background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+}
+.platform-win .container-16j22k {
+    top: 0;
+    padding-top: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.platform-win .bg-h5JY_x {
+    top: 0;
 }
 /*.withFrame-haYltI, .typeWindows-1za-n7 {
     background: transparent;
