@@ -11,13 +11,15 @@ Here you can use all presets submitted by users using one of Discord Addons them
 
 ## Submission form
 
-- **Preset name:** *(My beautiful preset)*
-- **Original theme name:** *(Opera GX Gaming Theme, ...)*
-- **Description:** *(Say about what does it look like)*
-- **Author name:** *(The name you'd like to display, not required)*
-- **Preview or Thumbnail:** *(Use an image link, not required)*
+```txt
+>>> - **Preset name:** My beautiful theme
+- **Original theme name:** Opera GX Gaming Theme
+- **Description:** Say about what does it look like
+- **Author name:** The name you'd like to display, not required
+- **Preview or Thumbnail:** Use an image link, not required
+```
 
-*Don't forget to upload your theme file!*
+*Don't forget to upload your theme file! You can fill or delete fields that are `not required`.*
 
 ## And here are some rules and useful information before starting
 
@@ -25,3 +27,4 @@ Here you can use all presets submitted by users using one of Discord Addons them
 - Some values you set may be modified, without changing the current appearance.
 - You can use any customizable theme from Discord Addons. All the other themes (like BasicBackground or ClearVision) not from Discord Addons won't be accepted.
 - You can always request modifications or delete your preset from the repo by asking or resubmitting.
+- If you don't attach any preview/thumbnail, one will be directly generated for you.
