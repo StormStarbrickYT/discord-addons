@@ -28,3 +28,4 @@ Here you can use all presets submitted by users using one of Discord Addons them
 - You can use any customizable theme from Discord Addons. All the other themes (like BasicBackground or ClearVision) not from Discord Addons won't be accepted.
 - You can always request modifications or delete your preset from the repo by asking or resubmitting.
 - If you don't attach any preview/thumbnail, one will be directly generated for you.
+- **Submit your theme in the support channel!**
