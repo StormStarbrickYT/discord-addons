@@ -2,7 +2,7 @@
 
 All the presets available with all the backgrounds and matching colors.
 
-### [Click here to see more presets](https://github.com/discord-addons/discord-addons/tree/master/custom-presets)
+### [Click here to see user-submitted presets](https://github.com/discord-addons/discord-addons/tree/master/custom-presets)
 
 Submitted by users!
 
