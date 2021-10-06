@@ -8,8 +8,8 @@ This theme was built to match the Android colors for the background when it is e
 - ✅ Powercord
 - ✅ Stylus
 
-### You want full black background? [Try the optimized version!](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/AmoledDarkThemeOptimized)
+### You want full black background? [Try the optimized version!](https://github.com/discord-addons/discord-addons/tree/master/download-themes-here/AmoledDarkThemeOptimized)
 
 Preview:
 
-![AmoledDarkTheme.png](https://tomrdh.github.io/da-website/screenshots/AmoledDarkTheme.png)
+![AmoledDarkTheme.png](https://discord-addons.github.io/screenshots/AmoledDarkTheme.png)
