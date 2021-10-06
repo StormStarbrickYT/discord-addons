@@ -1,6 +1,6 @@
 /* This is not a BetterDiscord theme, but a code for Browser! */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/styles/CFFB_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/styles/CFFB_Core.css);
 
 :root {
     --customFont:           sans-serif;    /* Choose the font here. Case sensitive? No. */
@@ -12,6 +12,6 @@
 
 /*
 
-More help: https://github.com/Tomrdh/discord-addons/wiki/How-to-use-CustomFont
+More help: https://discord-addons.github.io/tutorials
 
 */
