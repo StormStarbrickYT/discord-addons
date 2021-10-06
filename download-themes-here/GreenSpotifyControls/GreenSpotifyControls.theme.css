@@ -1,15 +1,14 @@
 /**
  * @name GreenSpotifyControls
- * @author TomRdh
- * @version 0.0.2
+ * @author Discord Addons
+ * @version 1.0.2
  * @description Allows you to change the colors for the SpotifyControls plugin. Change the colors in the theme file.
- * @website https://tomrdh.github.io/da-website/main
- * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/GreenSpotifyControls
- * @invite v7ECsqT
- * @authorId 703638166162112516
+ * @website https://discord-addons.github.io/da-website/main
+ * @source https://github.com/discord-addons/discord-addons/blob/master/download-themes-here/GreenSpotifyControls
+ * @invite g9heA3p6WW
 */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/GSC_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/GSC_Core.css);
 
 :root { /* DARK AND LIGHT THEMES HAVE DIFFERENT VALUES - You can use hex, rgb, vars, or what you want supported by CSS. */
     /* Dark theme */
