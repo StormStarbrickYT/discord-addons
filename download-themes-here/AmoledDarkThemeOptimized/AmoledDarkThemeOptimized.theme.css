@@ -1,16 +1,15 @@
 /**
  * @name AmoledDarkThemeOptimized
- * @author TomRdh
- * @version 0.0.6
+ * @author Discord Addons
+ * @version 1.0.6
  * @description This version of AMOLED dark theme makes all backgrounds to black instead of matching Android colors.
- * @website https://tomrdh.github.io/da-website/main
- * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/AmoledDarkThemeOptimized
- * @invite v7ECsqT
- * @authorId 703638166162112516
+ * @website https://discord-addons.github.io/main
+ * @source https://github.com/discord-addons/discord-addons/blob/master/download-themes-here/AmoledDarkThemeOptimized
+ * @invite g9heA3p6WW
 */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/ADT_Core.css);
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/ADTO_QuickConfig.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/ADT_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/ADTO_QuickConfig.css);
 
 :root { /* Settings */
     /* Compatibility Settings */
