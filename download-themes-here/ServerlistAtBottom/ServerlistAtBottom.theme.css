@@ -1,15 +1,14 @@
 /**
  * @name ServerlistAtBottom
- * @author TomRdh
- * @version 0.0.3
+ * @author Discord Addons
+ * @version 1.0.3
  * @description Moves the serverlist at the bottom, like Guilded. Customization available in the theme file!
- * @website https://tomrdh.github.io/da-website/main
- * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/ServerlistAtBottom
- * @invite v7ECsqT
- * @authorId 703638166162112516
+ * @website https://discord-addons.github.io/da-website/main
+ * @source https://github.com/discord-addons/discord-addons/blob/master/download-themes-here/ServerlistAtBottom
+ * @invite g9heA3p6WW
 */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/SAB_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/SAB_Core.css);
 
 :root {
     /* Custom Settings */
