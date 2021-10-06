@@ -1,18 +1,17 @@
 /**
  * @name CompactChannels
- * @author TomRdh
- * @version 0.0.5
+ * @author Discord Addons
+ * @version 1.0.5
  * @description Compact channellist and memberlist — Customizable in the theme file (or use Settings if you have the ThemeSettings plugin)
- * @website https://tomrdh.github.io/da-website/main
- * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/CompactChannels
- * @invite v7ECsqT
- * @authorId 703638166162112516
+ * @website https://discord-addons.github.io/main
+ * @source https://github.com/discord-addons/discord-addons/blob/master/download-themes-here/CompactChannels
+ * @invite g9heA3p6WW
 */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/CC_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/CC_Core.css);
 
-/* ⬇⬇⬇⬇⬇⬇⬇⬇ REMOVE THIS IMPORT LINK IF YOU DON'T WANT FIXED BUTTONS POSITIONS ⬇⬇⬇⬇⬇⬇⬇⬇ */
-@import url(https://tomrdh.github.io/discord-addons/xcores/tools/CC_BtnPositionFix.css);
+/* ⬇⬇⬇⬇⬇⬇⬇⬇ REMOVE/DISABLE THIS IMPORT LINK IF YOU DON'T WANT FIXED BUTTONS POSITIONS ⬇⬇⬇⬇⬇⬇⬇⬇ */
+@import url(https://discord-addons.github.io/discord-addons/xcores/tools/CC_BtnPositionFix.css);
 /* ⬆⬆⬆⬆⬆⬆⬆⬆  ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆  ⬆⬆⬆⬆⬆⬆⬆⬆ */
 
 :root {
