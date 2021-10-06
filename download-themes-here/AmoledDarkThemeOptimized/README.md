@@ -8,4 +8,4 @@
 
 Preview:
 
-![AmoledDarkThemeOptimized.png](https://tomrdh.github.io/da-website/screenshots/AmoledDarkThemeOptimized.png)
+![AmoledDarkThemeOptimized.png](https://discord-addons.github.io/screenshots/AmoledDarkThemeOptimized.png)
