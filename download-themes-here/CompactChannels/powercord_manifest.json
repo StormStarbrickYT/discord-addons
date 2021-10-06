@@ -1,8 +1,8 @@
 {
     "name": "CompactChannels",
     "description": "Compact channellist and memberlist — Customizable in the theme file (or use Settings if you have the ThemeSettings plugin)",
-    "version": "0.0.5",
-    "author": "TomRdh#5571",
+    "version": "1.0.5",
+    "author": "Discord Addons",
     "theme": "CompactChannels.theme.css",
     "license": "unknown"
 }
