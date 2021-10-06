@@ -1,6 +1,6 @@
 /* Always Display Channel Buttons */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
     --adcb-build: "8";
     --theme-name: "Always Display Channel Buttons";
