@@ -1,7 +1,7 @@
 /**
  * @name AmoledDarkTheme
- * @author TomRdh
- * @version 0.0.6
+ * @author Discord Addons
+ * @version 1.0.6
  * @description Enable the AMOLED dark theme for Discord for beautiful background colors like as the Android version (on Android, click 10 times on Dark in the Appearance settings). This theme does not interact with the Light theme and doesn't force you to switch to the Dark theme.
  * @website https://tomrdh.github.io/da-website/main
  * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/AmoledDarkTheme
@@ -9,8 +9,8 @@
  * @authorId 703638166162112516
 */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/ADT_Core.css);
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/ADT_QuickConfig.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/ADT_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/ADT_QuickConfig.css);
 
 :root { /* Settings */
     /* Compatibility Settings */
