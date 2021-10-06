@@ -1,8 +1,8 @@
 {
     "name": "UT All UTilities",
     "description": "Minitheme to edit some texts in your UI. Customize the theme in the file.",
-    "version": "0.0.4",
-    "author": "TomRdh#5571",
+    "version": "1.0.5",
+    "author": "Discord Addons",
     "theme": "UT00_AllUTilities.theme.css",
     "license": "unknown"
 }
