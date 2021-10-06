@@ -12,4 +12,4 @@ Welcome to this repository! Download the themes in the [download-themes-here](ht
 
 # Notes
 
-[Read this wiki](https://github.com/discord-addons/discord-addons/wiki) if you don't know how to have a theme.
+[Read this wiki](https://github.com/discord-addons/discord-addons/wiki) if you don't know how to apply a theme.
