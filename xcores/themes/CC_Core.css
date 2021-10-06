@@ -1,6 +1,6 @@
 /* Compact Channels and Memberlist */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
     --cc-build: "19";
     --theme-name: "Compact Channels" var(--ccbpf-status);
