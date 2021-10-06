@@ -2,7 +2,11 @@
 
 ![da-icon-128.png](https://user-images.githubusercontent.com/87938141/128053815-82893338-c843-4b98-86ff-f8f3aee76fb2.png)
 
-Welcome to this repository! Download the themes in the [download-themes-here](https://github.com/discord-addons/discord-addons/tree/master/download-themes-here) folder. The [xcores](https://github.com/discord-addons/discord-addons/tree/master/xcores) folder contains full CSS files.
+Welcome to this repository! Download the themes in the [download-themes-here](https://github.com/discord-addons/discord-addons/tree/master/download-themes-here) folder.
+
+## ⚠ Got any of Discord Addons themes before Oct 6, 2021?
+
+You may redownload your theme or [change the import link]() (link will be ready once development finished), because all themes linking to the old repo will no longer work on **Oct 25, 2021**. You may also see a notice in Discord.
 
 # Links
 
