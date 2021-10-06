@@ -1,4 +1,4 @@
-# The NEW [Discord Addons](https://discord-addons.github.io/da-website/main) repo!
+# The NEW [Discord Addons](https://discord-addons.github.io/main) repo!
 
 ![da-icon-128.png](https://user-images.githubusercontent.com/87938141/128053815-82893338-c843-4b98-86ff-f8f3aee76fb2.png)
 
