@@ -16,7 +16,7 @@
 
 /*  Blur Amount Settigs                                                                                                                                                             */
     --blur-amount           :   5px     ;/*  Default: 5px    - Default blur amout. Use length units like px. If you are not sure what you are doing, leave it as default.           */
-    --blur-amount-on-hover  :   0       ;/*  Default: 0      - Blur amount when you hover on a sensitive information. If you're not sure what you're doing, leave it as default.    */
+    --blur-amount-on-hover  :   0px     ;/*  Default: 0px    - Blur amount when you hover on a sensitive information. If you're not sure what you're doing, leave it as default.    */
     
 /*  Transition Settings                                                                                                                                                             */
     --fade-in               :   700ms   ;/*  Default: 700ms  - Fade transition time when the cursor starts hovering on the blurred text.                                            */
