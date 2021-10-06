@@ -1,6 +1,6 @@
 /* Typing at top of chat box */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
     --tatocb-build: "8";
     --theme-name: "Typing at Top of Chat Box";
