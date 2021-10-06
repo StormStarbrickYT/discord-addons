@@ -1,16 +1,16 @@
 /**
  * @name OperaGxGamingTheme Ultraviolet Space
  * @author TomRdh (preset by TomRdh)
- * @version 0.0.9
+ * @version 1.0.0
  * @description A purple theme in the space using the same colors as the Ultraviolet default preset, and a beautiful background.
- * @website https://tomrdh.github.io/da-website/main
- * @source https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/OperaGxGamingTheme
- * @invite v7ECsqT
+ * @website https://discord-addons.github.io/main
+ * @source https://github.com/discord-addons/discord-addons/tree/master/download-themes-here/OperaGxGamingTheme
+ * @invite g9heA3p6WW
  * @authorId 703638166162112516
 */
 
 /* Import CSS link(s) */
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/OGGT_Core.css);
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/OGGT_Core.css);
 
 :root { /* Theme settings */
 /*  Variable Name                   | Variable Value                        | | Default Value(s)                                               | About This Variable (alias: Setting)                                                                                                                                                                           */
