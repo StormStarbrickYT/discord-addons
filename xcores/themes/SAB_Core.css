@@ -2,7 +2,7 @@
 
 @import url(https://discord-addons.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --sab-build: "20";
+    --sab-build: "21";
     --theme-name: "Serverlist at Bottom";
 }
 :root {
@@ -33,8 +33,7 @@
 #app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv {
     width: calc(100% + 30px);
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh),
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku > div[style]:not(.listItem-GuPuDH) {
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-1hlISG) {
     height: auto !important;
 }
 #app-mount .guilds-1SWlCJ .svg-1X37T1,
@@ -57,15 +56,13 @@
 #app-mount .guilds-1SWlCJ .wrapper-sa6paO {
     height: var(--server-size) !important;
 }
-#app-mount .guilds-1SWlCJ .listItem-2P_4kh,
-#app-mount .guilds-1SWlCJ .listItem-GuPuDH {
+#app-mount .guilds-1SWlCJ .listItem-1hlISG {
     width: var(--server-size);
     transform: rotate(90deg);
     margin: var(--server-spacing) 10px;
     position: unset;
 }
-#app-mount .guilds-1SWlCJ .guildSeparator-3s64Iy,
-#app-mount .guilds-1SWlCJ .guildSeparator-33mFX6 {
+#app-mount .guilds-1SWlCJ .guildSeparator-EOYZLM {
     transform: rotate(90deg);
     width: var(--server-size);
 }
@@ -85,17 +82,14 @@
 #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
     top: calc(var(--server-container) * 2) !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh,
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-GuPuDH {
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-1hlISG {
     height: var(--server-size) !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .wrapper-1BJsBx,
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-GuPuDH .wrapper-1BJsBx {
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-1hlISG .wrapper-1BJsBx {
     height: 100% !important;
     max-height: 100% !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .button-Jt-tIg,
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-GuPuDH .button-Jt-tIg {
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-1hlISG {
     width: 100%;
     height: 100% !important;
     max-height: 100% !important;
