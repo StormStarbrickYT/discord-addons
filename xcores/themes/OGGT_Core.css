@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "234";
+    --oggt-build: "235";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4417,7 +4417,7 @@ span.roleColor-rz2vM0::after {
     color: rgb(var(--normal-font));
     font-weight: 500;
 }
-/* Servers */
+/* Serverlist */
 .item-2hkk8m {
     border-radius: 0 !important;
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
@@ -4426,31 +4426,26 @@ span.roleColor-rz2vM0::after {
 .item-2hkk8m:focus {
     background: transparent;
 }
-.circleIconButton-jET_ig,
-.circleIconButton-1QV--U {
+.circleIconButton-1XqULR {
     color: rgb(var(--accent-color-2));
     background-color: transparent;
     transition: 0ms;
     cursor: default;
 }
-.circleIconButton-jET_ig.selected-ugP_am,
-.circleIconButton-1QV--U.selected-1JjBPm {
+.circleIconButton-1XqULR.selected-2jcQaY {
     color: rgb(var(--accent-color-2));
     background-color: transparent;
     transition: 0ms;
 }
-.circleIconButton-jET_ig svg,
-.circleIconButton-1QV--U svg {
+.circleIconButton-1XqULR svg {
     transition: 300ms ease-out;
     transition-property: width, height;
 }
-.circleIconButton-jET_ig:hover svg,
-.circleIconButton-1QV--U:hover svg {
+.circleIconButton-1XqULR:hover svg {
     width: 30px !important;
     height: 30px !important;
 }
-.circleIconButton-jET_ig:active svg,
-.circleIconButton-1QV--U:active svg {
+.circleIconButton-1XqULR:active svg {
     width: 16px !important;
     height: 16px !important;
     transition: 100ms ease-out;
