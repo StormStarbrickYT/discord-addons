@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "233";
+    --oggt-build: "234";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4253,7 +4253,8 @@ span.roleColor-rz2vM0::after {
 /* Streamer mode notice */
 .notice-3bPHh- {
     border-radius: 0;
-    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    background-color: rgba(var(--header-transparency-color, 8, 5, 14), var(--header-transparency, 1)) !important;
+    backdrop-filter: blur(var(--header-background-blur)) !important;
     border-right: solid 1px var(--line-color-1);
     border-left: solid 1px var(--line-color-1);
     border-top: solid 1px var(--line-color-1);
@@ -4899,7 +4900,8 @@ g[class*="focusStroke"] {
 }
 /* BD Update Notice */
 .colorInfo-2URYW5 {
-    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    background-color: rgba(var(--header-transparency-color, 8, 5, 14), var(--header-transparency, 1)) !important;
+    backdrop-filter: blur(var(--header-background-blur)) !important;
     color: rgb(var(--fullwhite-font));
     border: solid 1px var(--line-color);
     border-bottom: none;
@@ -4925,7 +4927,8 @@ g[class*="focusStroke"] {
     color: rgb(var(--fullwhite-font));
 }
 .noticeInfo-3_iTE1 {
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--header-transparency-color, 8, 5, 14), var(--header-transparency, 1)) !important;
+    backdrop-filter: blur(var(--header-background-blur)) !important;
     border: solid 1px var(--line-color-2);
     border-top: none;
     color: rgb(var(--fullwhite-font));
@@ -5072,15 +5075,13 @@ g[class*="focusStroke"] {
 }
 /* View As Roles Notice */
 .notice-1tZwqv {
-    background-color: rgba(var(--dark-background-color), var(--other-transparency));
+    background-color: rgba(var(--header-transparency-color, 8, 5, 14), var(--header-transparency, 1)) !important;
+    backdrop-filter: blur(var(--header-background-blur)) !important;
     color: rgb(var(--normal-hover-font));
     border-radius: 0;
     border: solid 1px var(--line-color);
     border-top: none;
     border-left: none;
-}
-.noticeText-28B2fH {
-    font-weight: 500;
 }
 /* View As Roles Tooltip */
 .subscribeTooltipWrapper-32-Ce8 {
@@ -8188,7 +8189,8 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version008_oggt, block) !important;
     box-shadow: none !important;
-    background-color: rgba(var(--darker-background-color, 8, 5, 14), var(--other-highlighted-transparency, 1)) !important;
+    background-color: rgba(var(--header-transparency-color, 8, 5, 14), var(--header-transparency, 1)) !important;
+    backdrop-filter: blur(var(--header-background-blur)) !important;
     color: rgb(var(--fullwhite-font, 255, 255, 255)) !important;
     font-size: 14px !important;
     font-weight: 500 !important;
@@ -8204,6 +8206,9 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 .platform-web #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid 1px var(--line-color) !important;
 }
 
 /*~~ 19. Other Client Mods Support ~~*/

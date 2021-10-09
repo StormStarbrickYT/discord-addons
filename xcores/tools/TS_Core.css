@@ -1,5 +1,6 @@
 /* Theme Support for Discord Addons
  *
+ * build 
  * Theme Support is used to make sure that your theme files are correct and updated, and also not to have to paste the same code in each theme.
  * This file is automatically imported if you are using one of Discord Addons themes.
  * It should work with all themes in the right Discord Addons GitHub repository.
@@ -12,7 +13,7 @@
     --theme-name: "The theme name is Unknown, please report. - Something"; /* Default value if the theme name is not set. */
 }
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
-    content: var(--theme-name)" is broken or outdated! Please redownload the theme in \"discord-addons.github.io/main\"." !important;
+    content: var(--theme-name)" is broken/outdated! Please redownload the theme from \"discord-addons.github.io/themes\"." !important;
     display: block; /* Default value if the theme does not have this display property. */
     background-color: #3e82e5;
     color: #fff;
