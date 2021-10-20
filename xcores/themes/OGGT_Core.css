@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "235";
+    --oggt-build: "236";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -438,7 +438,8 @@ code,
 .inviteCode-202N0U,
 #bd-customcss-editor *,
 .timestamp-3ZCmNB span,
-.timestamp-1E3uAL {
+.timestamp-1E3uAL,
+.messageContent-2qWWxC:after {
     font-family: var(--cbcf);
 }
 
