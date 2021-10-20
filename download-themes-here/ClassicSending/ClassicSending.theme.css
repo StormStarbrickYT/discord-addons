@@ -1,0 +1,20 @@
+/**
+ * @name ClassicSending test
+ * @author Discord Addons
+ * @version 0.0.1
+ * @description Simple minitheme to show a small text next to the message instead of graying when it's sending, just like classic messaging. Text is customizable in the theme file.
+ * @website https://discord-addons.github.io/main
+ * @source https://github.com/discord-addons/discord-addons/blob/master/download-themes-here/ClassicSending
+ * @invite g9heA3p6WW
+*/
+
+@import url(https://discord-addons.github.io/discord-addons/xcores/themes/CS_Core.css);
+
+:root {
+    /* Custom Additional Text */
+    --sending-text: "(sending...)";
+    --failed-text: "(failed)";
+
+    /* Update */
+    --version100_cs: none; /* Never edit this, doing that will break the update notice behavior! */
+}

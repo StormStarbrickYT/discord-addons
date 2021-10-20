@@ -1,0 +1,47 @@
+/* Classic Sending */
+
+/* Imports */
+@import url(https://discord-addons.github.io/discord-addons/xcores/tools/TS_Core.css);
+
+/* Default variables */
+:root {
+    /* Theme support */
+    --theme-name: "Classic Sending";
+    --cs-build: "1";
+
+    /* Text variables */
+    --sendingt: var(--sending-text, "(sending...)");
+    --failedt: var(--failed-text, "(failed)");
+}
+
+/* Remove graying for sending */
+.messageContent-2qWWxC.isSending-9nvak6 {
+    opacity: 1;
+}
+/* Configure additional text */
+.messageContent-2qWWxC:after {
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: baseline;
+    margin-left: 0.3rem;
+}
+/* Sending text and color */
+.messageContent-2qWWxC.isSending-9nvak6:after {
+    content: var(--sendingt);
+    color: var(--text-muted);
+}
+/* Failed text and color */
+.messageContent-2qWWxC.isFailed-2MPmD6:after {
+    content: var(--failedt);
+    opacity: 0.8;
+}
+
+/* Theme support */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
+    display: var(--version100_cs, block) !important;
+}
+
+[id*="ClassicSending"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--cs-build) " ";
+}

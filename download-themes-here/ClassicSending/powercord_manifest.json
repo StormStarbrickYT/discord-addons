@@ -1,0 +1,8 @@
+{
+    "name": "ClassicSending",
+    "description": "Simple minitheme to show a small text next to the message instead of graying when it's sending, just like classic messaging. Text is customizable in the theme file.",
+    "version": "1.0.0",
+    "author": "Discord Addons",
+    "theme": "ClassicSending.theme.css",
+    "license": "unknown"
+}
