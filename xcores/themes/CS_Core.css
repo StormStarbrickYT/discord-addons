@@ -39,7 +39,7 @@
 
 /* Theme support */
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
-    display: var(--version100_cs, block) !important;
+    display: var(--version101_cs, block) !important;
 }
 
 [id*="ClassicSending"] .bd-addon-header .bd-meta:before {
