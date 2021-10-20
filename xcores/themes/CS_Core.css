@@ -7,7 +7,7 @@
 :root {
     /* Theme support */
     --theme-name: "Classic Sending";
-    --cs-build: "1";
+    --cs-build: "2";
 
     /* Text variables */
     --sendingt: var(--sending-text, "(sending...)");
