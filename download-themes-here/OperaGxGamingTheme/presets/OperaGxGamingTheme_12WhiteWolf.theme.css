@@ -192,3 +192,10 @@
 
 /*  Custom-CSS                                                                                                                                                                                                                                                                                                                                                  */
 /*  You can put Custom CSS just below. If you're trying to fix an issue, feel free to also report it to me, so it can be fixed for everyone.                                                                                                                                                                                                                    */
+
+
+.groupStart-23k01U {
+    border-top: none !important;
+}
+
+/*removes lines between messages /\
